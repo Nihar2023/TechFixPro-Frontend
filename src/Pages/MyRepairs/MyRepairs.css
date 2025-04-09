@@ -1,0 +1,127 @@
+/* Container Styling */
+.my-appointments-container {
+    padding: 30px;
+    background-color: #f4f5f7; /* Softer background */
+    min-height: 100vh;
+  }
+  
+  .my-appointments-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2c3e50; /* Darker and more professional color */
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  /* Appointment Cards */
+  .appointment-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 16px; /* Slightly larger for a modern look */
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Softer shadow */
+  }
+  
+  /* Doctor Image */
+  .doctor-image {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #6366f1; /* More vibrant border */
+    transition: transform 0.3s ease;
+  }
+  
+  /* Appointment Details */
+  .appointment-details {
+    flex: 1;
+  }
+  
+  .doctor-name {
+    font-size: 20px; /* Increased for better readability */
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 6px;
+  }
+  
+  .doctor-speciality {
+    font-size: 16px;
+    color: #7f8c8d; /* Softer gray */
+    margin-bottom: 12px;
+  }
+  
+  .address {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 4px;
+  }
+  
+  .date-time {
+    font-size: 15px;
+    color: #6366f1;
+    font-weight: 500;
+    margin-top: 12px;
+  }
+  
+  /* Button Container */
+  .button-container {
+    display: flex;
+    gap: 12px;
+    margin-top: 18px;
+  }
+  
+  .pay-button,
+  .cancel-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(99, 102, 241, 0.2); /* Soft shadow */
+  }
+  
+  .pay-button {
+    color: #2c3e50;
+    background-color: #f0f0f0;
+  }
+  
+  .pay-button:hover {
+    color: #ffffff;
+    background-color: #6366f1;
+  }
+  
+  .cancel-button {
+    color: #2c3e50;
+    background-color: #f0f0f0;
+  }
+  
+  .cancel-button:hover {
+    color: #ffffff;
+    background-color: #6366f1;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .appointment-card {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .doctor-image {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .pay-button,
+    .cancel-button {
+      padding: 8px 16px;
+      font-size: 13px;
+    }
+  }
+  

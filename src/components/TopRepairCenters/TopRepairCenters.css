@@ -1,0 +1,110 @@
+/* Container */
+#top-repair-centers {
+    padding: 60px 40px;
+    background-color: #f9fafb;
+    text-align: center;
+  }
+  
+  /* Title */
+  .repair-center-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2563eb;
+    margin-bottom: 16px;
+  }
+  
+  /* Description */
+  .repair-center-description {
+    font-size: 18px;
+    color: #6b7280;
+    margin-bottom: 40px;
+  }
+  
+  /* List */
+  .repair-center-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 24px;
+  }
+  
+  /* Card */
+  .repair-center-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .repair-center-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Image */
+  .repair-center-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  /* Info */
+  .repair-center-info {
+    text-align: left;
+  }
+  
+  /* Status */
+  .repair-center-status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .status-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #22c55e;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .status-text {
+    font-size: 14px;
+    color: #22c55e;
+  }
+  
+  /* Name */
+  .repair-center-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 4px;
+  }
+  
+  /* Speciality */
+  .repair-center-speciality {
+    font-size: 16px;
+    color: #6b7280;
+  }
+  
+  /* Button */
+  .repair-center-btn {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 32px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .repair-center-btn:hover {
+    background-color: #1d4ed8;
+  }
+  

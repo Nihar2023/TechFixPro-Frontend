@@ -1,0 +1,122 @@
+/* Form Container */
+.login-container {
+    max-width: 420px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .login-container:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Title and Description */
+  .login-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  
+  .login-description {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  /* Form Group */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #d0d0d0;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #2c3e50;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+  }
+  
+  .form-input:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 8px rgba(99, 102, 241, 0.4);
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #6366f1;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    background-color: #5254d8;
+  }
+  
+  /* Toggle Message */
+  .toggle-message {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #7f8c8d;
+    text-align: center;
+  }
+  
+  .toggle-link {
+    color: #6366f1;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .toggle-link:hover {
+    color: #5254d8;
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .login-container {
+      padding: 30px;
+    }
+  
+    .login-title {
+      font-size: 24px;
+    }
+  
+    .form-input {
+      padding: 12px;
+    }
+  
+    .submit-button {
+      padding: 12px;
+      font-size: 16px;
+    }
+  }
+  
