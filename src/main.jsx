@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import AppContextProvider from './Context/AppContext.jsx'
 import DeviceContextProvider from './Context/deviceContext.jsx'
+
 import {BrowserRouter} from 'react-router-dom'
 import CartProvider from './Context/CartContext.jsx'
 import UserContextProvider from './Context/UserContext.jsx'
