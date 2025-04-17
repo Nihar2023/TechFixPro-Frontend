@@ -8,7 +8,7 @@ import "./reportIssue.css";
 import mobileData from "../../assets/brands_and_models.json";
 import laptopData from "../../assets/laptop_json_file.json";
 import repairPrices from "../../../data";
-import { DeviceContext } from "../../Context/deviceContext";
+import { DeviceContext } from "../../Context/Device";
 import { CartContext } from "../../Context/CartContext";
 import { UserContext } from "../../Context/UserContext";
 

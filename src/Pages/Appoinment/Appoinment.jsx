@@ -4,7 +4,7 @@ import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 
 import { AppContext } from '../../Context/AppContext';
-import { DeviceContext } from '../../Context/deviceContext.jsx';
+import { DeviceContext } from '../../Context/Device.jsx';
 import { UserContext } from '../../Context/UserContext';
 
 import { assets } from '../../assets/assets';
