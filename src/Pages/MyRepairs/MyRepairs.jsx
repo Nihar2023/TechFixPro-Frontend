@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { AppContext } from '../../Context/AppContext';
+import { AppContext } from '../../Context/AppContext.jsx';
 import './MyRepairs.css';
 
 const MyRepairs = () => {

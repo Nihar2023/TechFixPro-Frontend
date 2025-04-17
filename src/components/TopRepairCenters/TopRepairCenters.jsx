@@ -1,5 +1,5 @@
 import React from 'react'
-import { shops } from '../../assets/assets';
+import { shops } from '../../assets/assets.js';
 import './TopRepairCenters.css'
 import { useNavigate } from 'react-router-dom'
 

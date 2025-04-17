@@ -1,5 +1,5 @@
 import React from 'react'
-import SpecialityMenu from '../../components/SpecialityMenu/SpecialityMenu'
+import SpecialityMenu from '../../components/SpecialityMenu/SpecialityMenu.jsx'
 function Service() {
   return (
     <div>

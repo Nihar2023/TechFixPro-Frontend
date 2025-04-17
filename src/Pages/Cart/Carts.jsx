@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import axios from "axios";
 import "./cart.css";
-import { UserContext } from "../../Context/UserContext";
+import { UserContext } from "../../Context/UserContext.jsx";
 
 function Carts() {
   const [cartItems, setCartItems] = useState([]);

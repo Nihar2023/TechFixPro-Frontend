@@ -7,10 +7,10 @@ import "./reportIssue.css";
 
 import mobileData from "../../assets/brands_and_models.json";
 import laptopData from "../../assets/laptop_json_file.json";
-import repairPrices from "../../../data";
-import { DeviceContext } from "../../Context/Device";
-import { CartContext } from "../../Context/CartContext";
-import { UserContext } from "../../Context/UserContext";
+import repairPrices from "../../../data.js";
+import { DeviceContext } from "../../Context/Device.jsx";
+import { CartContext } from "../../Context/CartContext.jsx";
+import { UserContext } from "../../Context/UserContext.jsx";
 
 const issuesList = [
   "Battery Drain", "Screen Cracks", "Touchscreen Not Working",

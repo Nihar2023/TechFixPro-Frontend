@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { AppContext } from '../../Context/AppContext';
+import { AppContext } from '../../Context/AppContext.jsx';
 import { Navigate, useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
 import './RelatedShops.css'

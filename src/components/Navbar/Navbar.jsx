@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useRef, useContext } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import './Navbar.css';
-import { assets } from '../../assets/assets';
+import { assets } from '../../assets/assets.js';
 import { toast } from 'react-toastify';
-import { UserContext } from '../../Context/UserContext';
+import { UserContext } from '../../Context/UserContext.jsx';
 
 const Navbar = () => {
   const navigate = useNavigate();

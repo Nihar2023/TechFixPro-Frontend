@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { specialityData } from '../../assets/assets'
+import { specialityData } from '../../assets/assets.js'
 import './SpecialityMenu.css'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'

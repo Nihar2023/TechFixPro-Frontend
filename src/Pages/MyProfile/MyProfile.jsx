@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from 'react';
-import { UserContext } from '../../Context/UserContext';
+import { UserContext } from '../../Context/UserContext.jsx';
 const MyProfile = () => {
   // Retrieve and parse user data safely
   const user = JSON.parse(localStorage.getItem("user") || "{}");

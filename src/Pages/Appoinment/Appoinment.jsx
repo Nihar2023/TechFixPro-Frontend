@@ -3,12 +3,12 @@ import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 
-import { AppContext } from '../../Context/AppContext';
+import { AppContext } from '../../Context/AppContext.jsx';
 import { DeviceContext } from '../../Context/Device.jsx';
-import { UserContext } from '../../Context/UserContext';
+import { UserContext } from '../../Context/UserContext.jsx';
 
-import { assets } from '../../assets/assets';
-import RelatedShops from '../../components/RelatedShops/RelatedShops';
+import { assets } from '../../assets/assets.js';
+import RelatedShops from '../../components/RelatedShops/RelatedShops.jsx';
 
 import './Appoinment.css';
 
