@@ -12,7 +12,7 @@ import MyRepairs from './Pages/MyRepairs/MyRepairs.jsx'
 import Service from './Pages/Service/Service.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import Appoinment from './Pages/Appoinment/Appoinment.jsx'
-import ReportIssue from './Pages/reportIssue/reportIssue.jsx'
+import ReportIssue from './Pages/reportIssue/ReportIssue.jsx'
 import Carts from './Pages/Cart/Carts.jsx'
 import { ToastContainer, toast } from 'react-toastify';
 
